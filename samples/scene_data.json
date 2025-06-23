@@ -1,0 +1,58 @@
+{
+  "project_id": "film_project_123",
+  "scenes": [
+    {
+      "scene_id": "scene_001",
+      "timestamp": 0,
+      "duration": 120,
+      "location": "kitchen",
+      "time_of_day": "morning",
+      "characters": ["alice", "bob"],
+      "props": ["coffee_mug", "newspaper"],
+      "camera_angles": ["medium_shot"],
+      "preceding_scene_id": null,
+      "following_scene_id": "scene_002",
+      "notes": "Opening scene"
+    },
+    {
+      "scene_id": "scene_002",
+      "timestamp": 120,
+      "duration": 90,
+      "location": "living_room",
+      "time_of_day": "morning",
+      "characters": ["alice"],
+      "props": ["coffee_mug", "phone"],
+      "camera_angles": ["close_up"],
+      "preceding_scene_id": "scene_001",
+      "following_scene_id": "scene_003",
+      "notes": "Alice receives call"
+    },
+    {
+      "scene_id": "scene_003",
+      "timestamp": 210,
+      "duration": 180,
+      "location": "exterior_house",
+      "time_of_day": "morning",
+      "characters": ["alice", "charlie"],
+      "props": ["car_keys", "handbag"],
+      "camera_angles": ["wide_shot", "tracking_shot"],
+      "preceding_scene_id": "scene_002",
+      "following_scene_id": "scene_004",
+      "notes": "Alice leaves house"
+    },
+    {
+      "scene_id": "scene_004",
+      "timestamp": 400,
+      "duration": 150,
+      "location": "office",
+      "time_of_day": "afternoon",
+      "characters": ["alice", "david", "emma"],
+      "props": ["laptop", "coffee_mug", "documents"],
+      "camera_angles": ["medium_shot", "over_shoulder"],
+      "preceding_scene_id": "scene_003",
+      "following_scene_id": null,
+      "notes": "Alice arrives at work"
+    }
+  ],
+  "validation_level": "standard"
+}
