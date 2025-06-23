@@ -1,0 +1,17 @@
+project:
+  name: SceneValidator
+  version: 1.0.0
+
+google_cloud:
+  project_id: your-project-id
+  region: us-central1
+  bucket_name: scene-validator-storage
+
+gemini:
+  api_key_env: GEMINI_API_KEY
+  model: gemini-pro-vision
+
+validation:
+  default_level: standard
+  timeout_seconds: 120
+  max_scenes_per_batch: 50
